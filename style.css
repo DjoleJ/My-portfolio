@@ -44,7 +44,7 @@ body {
 
 .header {
     height: 100vh;
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/bg.jpg);
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/room.jpg);
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -334,7 +334,7 @@ body {
 
 .skills {
     padding: 20rem 0;
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/bg.jpg);
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7)), url(img/skills-bg.jpg);
     background-size: cover;
     transform: skewY(-6deg);
     margin-top: -11rem;
@@ -362,6 +362,7 @@ body {
 
 .skill-box:hover {
     transform: scale(1.05) translateY(-1.5rem);
+    cursor: pointer;
 }
 
 .skill-box i {
@@ -541,8 +542,9 @@ body {
                         rgba(255,255,255, .9) 0%, 
                         rgba(255,255,255, .9) 50%,
                         transparent 50%),
-                        url(img/bg.jpg);
+                        url(img/contact-bg.jpg);
     background-size: cover;
+    background-position: right;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0, .15);
    
@@ -733,6 +735,8 @@ body {
     
     
 }
+
+
 
 .nav-list {
     position: absolute;
