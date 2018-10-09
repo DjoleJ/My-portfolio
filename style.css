@@ -714,7 +714,7 @@ body {
     position: fixed;
     top: 6.5rem;
     right: 8rem;
-    background-image: radial-gradient(#7ed56f, #28b485);
+    background-image: linear-gradient( to right, #7ed56f, #28b485);
     z-index: 1000;
     transition: transform .8s cubic-bezier(0.86,0,0.07,1);
     -webkit-transition: transform .8s cubic-bezier(0.86,0,0.07,1);
@@ -742,7 +742,7 @@ body {
 
 .nav-list {
     position: absolute;
-    top: 10rem;
+    top: 15rem;
     right: 2rem;
     width: 27rem;
     /*transform: translate(-10%, -50%);*/
@@ -757,6 +757,7 @@ body {
 .nav-item {
     margin: 2.5rem;
     width: 20rem;
+    
     
 }
 
@@ -847,6 +848,24 @@ body {
     top: 0;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 1250px */
 @media only screen and (max-width: 78.125em) {
     html {
