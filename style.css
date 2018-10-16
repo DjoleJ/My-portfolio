@@ -532,9 +532,10 @@ body {
 }
 
 .contact {
-    padding: 10% 0;
-    background-image: linear-gradient(to bottom right, #7ed56f, #28b485);
     height: 100vh;
+    background-image: linear-gradient(to bottom right, #7ed56f, #28b485);
+    padding: 10% 0;
+    
 }
 
 
@@ -549,6 +550,8 @@ body {
     background-position: right;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0, .15);
+   
+    
    
 }
 
@@ -888,6 +891,8 @@ body {
 
 /* 900px */
 @media only screen and (max-width: 56.25em) {
+
+    
     html {
         font-size: 45%;
     }
@@ -1055,6 +1060,13 @@ body {
     
 }
 
+/* width: 900px and height: 750px */
+@media only screen and (min-width: 56.25rem) and (max-height: 46.875rem) {
+    html {
+        font-size: 50%;
+    }
+}
+
 /* 600px */
 @media only screen and (max-width: 37.5em) {
     html {
@@ -1074,10 +1086,14 @@ body {
 }
 
 
+/* height: <600px 
+@media only screen and (max-height: 750px) {
+    html {
+        font-size: 50%;
+    }
+}
 
-
-
-
+*/
 
 
 
