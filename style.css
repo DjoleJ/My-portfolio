@@ -688,6 +688,26 @@ body {
     text-align: center;
 }
 
+
+.cv-link-box {
+    display: block;
+    text-align: center;
+    margin-top: -6rem;
+    font-size: 2rem;
+}
+
+.cv-link:link,
+.cv-link:visited {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.cv-link:hover,
+.cv-link:active {
+    color: #55c57a;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, .4);
+}
+
 .nav {
     
 }
