@@ -9,10 +9,14 @@ var bootstrapString = 'Knowledge of the front-end framework Bootstrap and its co
 var sassString = 'Knowledge of CSS preprocessors SCSS and SASS, and its advantages like nesting, variables, mixins, functions and more.';
 var gitString = 'Knowledge of version control system Git and GitHub, and its basic commands like adding, commiting, branching and pushing files to a remote repository.';
 var reactString = 'Basic knowledge of JavaScript framework React, and its components, structures, methods and workflow.';
+var ajaxString = 'Knowledge of Javascript fetch, promises, and async/await.';
+var webpackString = 'Basic knowledge of setting up and using module bundler webpack.';
+var babelString = 'Basic knowledge of JavaScript compiler, setting it up and configuring it.';
+var photoshopString = 'Basic knowledge of Adobe Photoshop.';
 
 
 
-var strings = [html5String, css3String, javascriptString, jqueryString, bootstrapString, sassString, gitString, reactString]
+var strings = [html5String, css3String, javascriptString, jqueryString, bootstrapString, sassString, gitString, reactString, ajaxString, webpackString, babelString, photoshopString]
 
 
     
@@ -20,7 +24,7 @@ document.getElementById('skills').addEventListener('click', function(e) {
     
     var target = e.target;
     
-    for(var i = 0; i < 8; i++) {
+    for(var i = 0; i < strings.length; i++) {
         
         if(target.id == ('skill-box-'+(i+1)) || target.parentNode.id == ('skill-box-'+(i+1))) {
             
